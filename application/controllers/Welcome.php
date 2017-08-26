@@ -23,11 +23,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	public function clientes(){
+	public function mensajes(){
 		echo '<h5> <small>Hola Mundo</small></h5>';
 	}
 
-	public function cliente($id){
+	public function mensaje($id){
 		echo '<h5> <small>Hola Mundo</small></h5>'.$id;
 	}
 }

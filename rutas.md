@@ -1,13 +1,34 @@
-## Rutas
+# Rutas
 
-editar /application/controllers/Welcome.php
+Estando en la raiz del proyecto
 
-añadimos las rutas:
+## Pasos a Seguir
+
+* 1.- Añadir dos funciones editando el archivo:
+
+ `gedit /application/controllers/Welcome.php`
+
+ y añadimos los metodos:
+
+
+ `public function mensajes(){
+   echo '<h5> <small>Hola Mundo</small></h5>';
+ }
+
+ public function mensaje($id){
+   echo '<h5> <small>Hola Mundo</small></h5>'.$id;
+ }`
+
+* 2.- Añadir las rutas:
+
+`gedit /application/config/routes.php`
+
+y añadimos las Rutas:
+
+$route['mensajes'] = 'welcome/mensajes';
+$route['mensajes/(:num)'] = 'welcome/mensaje/$1';
+
+## Iniciado nuestra Aplicación las URL son
 
 http://localhost:8000/index.php/welcome/clientes
 http://localhost:8000/index.php/welcome/cliente/#nro
-
-luego editamos /application/config/routes.php añadiendo:
-
-$route['clientes'] = 'welcome/clientes';
-$route['clientes/(:num)'] = 'welcome/cliente/$1';
