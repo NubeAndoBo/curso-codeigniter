@@ -33,6 +33,8 @@ $route['mensajes/(:num)'] = 'welcome/mensaje/$1';
 
 ### Iniciado nuestra Aplicación las URL son
 
+`php -S localhost:8000`
+
 * http://localhost:8000/mensajes
 
 * http://localhost:8000/mensajes/#nro
