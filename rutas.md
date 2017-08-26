@@ -10,14 +10,15 @@ Estando en la raiz del proyecto
 
  y añadimos los metodos:
 
-
- `public function mensajes(){
+ ```php
+ public function mensajes(){
    echo '<h5> <small>Hola Mundo</small></h5>';
  }
 
  public function mensaje($id){
    echo '<h5> <small>Hola Mundo</small></h5>'.$id;
- }`
+ }
+ ```
 
 * 2.- Añadir las rutas:
 
@@ -25,8 +26,10 @@ Estando en la raiz del proyecto
 
 y añadimos las Rutas:
 
+```php
 $route['mensajes'] = 'welcome/mensajes';
 $route['mensajes/(:num)'] = 'welcome/mensaje/$1';
+```
 
 ## Iniciado nuestra Aplicación las URL son
 
