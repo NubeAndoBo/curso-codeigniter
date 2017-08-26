@@ -1,25 +1,13 @@
-# CodeIgniter
+# Curso CodeIgniter
 
-cd /var/www/html
+En este Curso aprenderemos a implementar un proyecto Básico usando CodeIgniter
 
-wget https://github.com/bcit-ci/CodeIgniter/archive/3.1.5.zip
+## Contenido
 
-cd codeigniter
-
-php -S localhost:8000
-
-http://localhost:8000/
-
-## Rutas
-
-editar /application/controllers/Welcome.php
-
-añadimos las rutas:
-
-http://localhost:8000/index.php/welcome/clientes
-http://localhost:8000/index.php/welcome/cliente/#nro
-
-luego editamos /application/config/routes.php añadiendo:
-
-$route['clientes'] = 'welcome/clientes';
-$route['clientes/(:num)'] = 'welcome/cliente/$1';
+|Tema|URL|Estado|
+|--|--|--|
+|`Instalando CodeIgniter`|  |  |
+|`Rutas en CodeIgniter`|  |  |
+|`Controladores en CodeIgniter`|  |  |
+|`Vistas y Plantillas en CodeIgniter`|  |  |
+|`Modelos y Base de Datos en CodeIgniter`|  |  |
