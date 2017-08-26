@@ -31,7 +31,8 @@ $route['mensajes'] = 'welcome/mensajes';
 $route['mensajes/(:num)'] = 'welcome/mensaje/$1';
 ```
 
-## Iniciado nuestra Aplicación las URL son
+### Iniciado nuestra Aplicación las URL son
 
-http://localhost:8000/index.php/welcome/clientes
-http://localhost:8000/index.php/welcome/cliente/#nro
+* http://localhost:8000/index.php/welcome/clientes
+
+* http://localhost:8000/index.php/welcome/cliente/#nro
