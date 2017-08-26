@@ -2,6 +2,11 @@
 
 En este Curso aprenderemos a implementar un proyecto Básico usando CodeIgniter
 
+## Desarrollador
+
+*  [Angel Céspedes Quiroz](https://bo.linkedin.com/in/acq1305)
+*  Correo:  <angel@nubeando.com>
+
 ## Contenido
 
 |Tema|URL|Estado|
