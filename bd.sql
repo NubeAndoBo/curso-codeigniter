@@ -1,8 +1,6 @@
-# Modelo
+-- drop database codeigniter;
+-- drop user codeigniter@localhost;
 
-Trabajaremos con una base de datos cuyo script para mySQL es el siguiente:
-
-```sql
 create database codeigniter;
 CREATE USER 'codeigniter'@'localhost' IDENTIFIED BY 'codeigniter';
 GRANT ALL ON codeigniter.* TO 'codeigniter'@'localhost';
@@ -23,6 +21,3 @@ create table clientes(
  (null, 'Pak', 'Chan-uk', 'pak@mail.com'),
  (null, 'Darren', 'Aronofsky', 'darren@mail.com'),
  (null, 'Alexander', 'Payne', 'alexander@mail.com');
-```
-
-##Pasos a Seguir
