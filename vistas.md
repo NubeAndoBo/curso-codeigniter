@@ -4,6 +4,10 @@ Estando en la raiz del proyecto
 
 ## Pasos a Seguir
 
+Antes de seguir con cada paso, tomar en cuenta que se debe crear una carpeta assets en la raiz del proyecto
+que contendra los javascript, css, e imagenes del proyecto.
+Dichos archivos lo pueden ver ya creados en este repositorio.
+
 * 1.- Creamos dos vistas:
 
  `gedit /application/views/clientes/index.php`
