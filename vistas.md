@@ -166,7 +166,7 @@ Estando en la raiz del proyecto
  	 }
    ```
 
-  * 2.- Añadir las rutas:
+  * 3.- Añadir las rutas:
 
   `gedit /application/config/routes.php`
 
